@@ -15,39 +15,44 @@ img{
 
 .search-bar{
   width: 50%;
-  height: 36px;
+  height: 42px;
   border-color: #5bc0de;
   border-style: solid;
-  /*box-shadow: 2px 2px 2px #AAA;*/
+  box-shadow: 1px 1px 5px #AAA;
+  margin-top: 24px;
 }
 
 .search-btn{
+  border-radius: 0;
   margin: 24px 6px 0px 6px;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .top-nav, .top-nav:hover, .top-nav:focus{
-  padding-right: 10px;
+  padding-right: 14px;
   color: black;
   font-size: 12px;
 }
 
 .login-btn{
+  border-radius: 0;
   font-size: 12px;
   font-weight: bold;
+  font-family: Arial, sans-serif;
 }
 
 #top-bar{
   float: right;
-  margin-top: 10px;
-}
-
-#square-corner{
-  border-radius: 0;
+  margin-top: 16px;
+  margin-right: 8px;
 }
 
 #grid{
-  font-size: 24px;
-  padding-right: 12px;
+  font-size: 36px;
+  margin-right: 12px;
 }
 
 .red-char{
