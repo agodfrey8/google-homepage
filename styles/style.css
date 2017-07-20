@@ -38,21 +38,33 @@ img{
 }
 
 .login-btn{
-  border-radius: 0;
+  border-radius: 2px;
   font-size: 13px;
   font-weight: bold;
   font-family: Arial, sans-serif;
+  padding: 6px 12px 6px 12px;
 }
 
-.bottom-bar{
+.bottom-nav{
   font-family: arial, sans-serif;
   font-size: 13px;
+  min-height: 24px;
+}
+
+.bottom-nav > ul > li > a {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  line-height: 12px;
 }
 
 #top-bar{
   float: right;
   margin-top: 16px;
-  margin-right: 8px;
+  margin-right: 6px;
+}
+
+#bottom-bar{
+  min-height: 0;
 }
 
 #grid{
