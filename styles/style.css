@@ -31,18 +31,24 @@ img{
   letter-spacing: 1px;
 }
 
-.top-nav, .top-nav:hover, .top-nav:focus{
-  padding-right: 14px;
-  color: black;
-  font-size: 13px;
-}
-
 .login-btn{
   border-radius: 2px;
   font-size: 13px;
   font-weight: bold;
   font-family: Arial, sans-serif;
-  padding: 6px 12px 6px 12px;
+  padding: 4px 12px 4px 12px;
+  min-height: 0;
+}
+
+.top-nav{
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  margin-right: 12px;
+}
+
+.top-nav > ul > li > a {
+  padding: 10px;
+  line-height: 30px;
 }
 
 .bottom-nav{
@@ -57,10 +63,14 @@ img{
   line-height: 12px;
 }
 
+.top-nav > ul > li > a:hover,
+.bottom-nav > ul > li > a:hover{
+  text-decoration: underline;
+}
+
 #top-bar{
-  float: right;
-  margin-top: 16px;
-  margin-right: 6px;
+  background-color: white;
+  border-color: white;
 }
 
 #bottom-bar{
@@ -68,8 +78,8 @@ img{
 }
 
 #grid{
-  font-size: 36px;
-  margin-right: 12px;
+  font-size: 18px;
+  padding-top: 7px;
 }
 
 .red-char{
